@@ -55,7 +55,6 @@
 					<link rel="stylesheet" href="{$css_uri|escape:'html':'UTF-8'}" type="text/css" media="{$media|escape:'html':'UTF-8'}" />
 				{/if}
 			{/foreach}
-			<link rel="stylesheet" href="{$css_dir}styles-uala.css" type="text/css" media="{$media}" />
 		{/if}
 		{if isset($js_defer) && !$js_defer && isset($js_files) && isset($js_def)}
 			{$js_def}
